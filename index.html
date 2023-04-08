@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="!#" class="logo">
+            <img width="90px" height="100px" src="img/logo.png" alt="logo">
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">Главная</a>
+            <a href="#about">О нас</a>
+            <a href="#menu">Меню</a>
+            <a href="#products">Продукты</a>
+            <a href="#review">Отзывы</a>
+            <a href="#contact">Контакты</a>
+            <a href="#blogs">Наш блог</a>
+        </nav>
+
+        <div class="icons"> 
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+            <div class="cart-items-container">
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>
+                    <img src="img/egoist.jpg" alt="">
+                    <div class="content">
+                        <h3>Egoiste Noir</h3>
+                        <div class="price">7500₸/-</div>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>
+                    <img src="img/dallmaire1111.webp" alt="">
+                    <div class="content">
+                        <h3>Dallmayr</h3>
+                        <div class="price">8500₸/-</div>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <span class="fas fa-times"></span>
+                    <img src="img/jardin.webp" alt="">
+                    <div class="content">
+                        <h3>Jardin Crema</h3>
+                        <div class="price">6500₸/-</div>
+                    </div>
+                </div>
+                <a href="!#" class="btn">проверьте прямо сейчас</a>
+            </div>
+    </header>
+    
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Кофе — это удивительный напиток, который согревает весь мир.</h3>
+            <p>Как бы ни было, будь собою, разве можно в себя не верить?!Пей спокойно сейчас свой кофе, наслаждайся... жизнь так прекрасна!Ощути аромат на вдохе... <br>Это запах мгновений счастья. И запомни: когда непросто...Сделай кофе - пошли всё к черту; Аннулируй дела, вопросы...И позволь перерыв с комфортом!</p>
+            <a href="#!" class="btn">Получи своё прямо сейчас!!!</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="heading">О нас</h1>
+        <div class="row">
+            <div class="image">
+                <img src="img/Dallmayr.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Что делает наш кофе особенным?</h3>
+                <p>Состоит на 100% из арабики, кофе подходит не только для ручной варки, но и для автоматических кофеварок. Зерна выращиваются на высокогорных плантациях, у них есть тонкий аромат, а при варке появляется нежная пенка. Их можно использовать даже для приготовления кофе-крема в кофемашине. Степень обжарки средняя, то же самое можно сказать про кислотность и горчинку.</p>
+                <p>Все зерна тщательно отобраны и хорошо обжарены. Имеют шоколадную окраску, мелкие или ломаные зерна полностью отсутствуют.</p>
+                <a href="#" class="btn">Попробовать</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <h1 class="heading">Наше меню</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="img/espresso1.jpg" alt="">
+                <h3>Espresso</h3>
+                <div class="price">300₸<span>450₸</span></div>
+                <a href="#" class="btn">Добавить в корзину</a>
+            </div>
+            <div class="box">
+                <img src="img/americano.jpg" alt="">
+                <h3>Americano</h3>
+                <div class="price">300₸<span>450₸</span></div>
+                <a href="#" class="btn">Добавить в корзину</a>
+            </div>
+            <div class="box">
+                <img src="img/cappuch.webp" alt="">
+                <h3>Capuchino</h3>
+                <div class="price">400₸<span>500₸</span></div>
+                <a href="#" class="btn">Добавить в корзину</a>
+            </div>
+            <div class="box">
+                <img src="img/latte.webp" alt="">
+                <h3>Latte</h3>
+                <div class="price">450₸<span>550₸</span></div>
+                <a href="#" class="btn">Добавить в корзину</a>
+            </div>
+            <div class="box">
+                <img src="img/frappe.webp" alt="">
+                <h3>Frappe Coffe</h3>
+                <div class="price">500₸<span>700₸</span></div>
+                <a href="#" class="btn">Добавить в корзину</a>
+            </div>
+            <div class="box">
+                <img src="img/raf.jpeg" alt="">
+                <h3>Raf Coffe</h3>
+                <div class="price">500₸<span>700₸</span></div>
+                <a href="#" class="btn">Добавить в корзину</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h1 class="heading">Наша продукция</h1>
+         <div class="box-container">
+             <div class="box">
+                 <div class="icons">
+                     <a href="#" class="fas fa-shopping-cart"></a>
+                     <a href="#" class="fas fa-heart"></a>
+                     <a href="#" class="fas fa-eye"></a>
+                 </div>
+                 <div class="image">
+                     <img src="img/dallmaire1111.webp" alt="">
+                 </div>
+                 <div class="content">
+                     <h3>Dallmayr</h3>
+                     <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star-half-alt"></i>
+                     </div>
+                     <div class="price"><span>9500₸</span>8500₸</div>
+                 </div>
+             </div>
+             <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="img/egoist.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Egoiste Noir </h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"><span>8500₸</span>7500₸</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="img/jardin.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Jardin Crema</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price"><span>8500₸</span>6500₸</div>
+                </div>
+            </div>
+         </div>
+    </section>
+<!--review start-->
+    <section class="review" id="review">
+        <h1 class="heading">Отзывы клиентов</h1>
+         <div class="box-container">
+             <div class="box">
+                 <img src="img/quote.png" class="quote" alt="" >
+                 <p>В основном, я приобретаю для употребления кофе Шадринское концентрированное молоко, пью кофе с этим молоком. Сахар добавляю редко, без сахара мне вкуснее.
+
+                    Кофейные гранулы приятного цвета, равномерные, приятно пахнут. </p>
+                 <img src="img/Kuat.jpg" class="user" alt="">
+                 <h3>Биктимис Серик</h3>
+                 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+             </div>
+             <div class="box">
+                <img src="img/quote.png" class="quote" alt="" >
+                <p>Марка Жардин бюджетная, но по сравнению с Нескафе имеет довольно достойный кофейный вкус, а не кислятину с привкусом железа. У данного кофе действительно кофейный вкус, причём очень приятный. Такой кофе хочется пить. Причём, можно и без молока или сливок, потому что вкус перебивать не хочется. </p>
+                <img src="img/Sanzhik.jpg" class="user" alt="">
+                <h3>Айтимов Дамир</h3>
+                <div class="stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star-half-alt"></i>
+               </div>
+            </div>
+            <div class="box">
+                <img src="img/quote.png" class="quote" alt="" >
+                <p>
+
+                    Добрый вечер)
+                    
+                    Впервые узнала об этом сорте кофе в рекламе по телевизору. Взяла. Баночка 250 грамм стоила около 300 - ста рублей.
+                    
+                    Как и было положено, заварила молоком.
+                    
+                    Аромат - бомба, пахнет ирисками, карамелью, чем - то таким приторно сладким и тягучим. На вкус такой же нежный и обволакивающий напиток.
+                    
+                    Пью данный напиток без молока, тоже очень вкусно)
+                    
+                    К покупке рекомендую: вкусно, свежо, нежно.
+                    
+                    Дизайн в духе классического Нескафе. Просто, минималистично.
+                    
+                    Рекомендую)
+                    </p>
+                <img src="img/Riza.jpg" class="user" alt="">
+                <h3>Ерназарова Маншук</h3>
+                <div class="stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star-half-alt"></i>
+               </div>
+            </div>
+         </div>
+    </section>
+<!--review end-->
+<!--contact start-->
+    <section class="contact" id="contact">
+        <h1 class="heading">Связь с нами</h1>
+         <div class="row">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d320368.3132938515!2d71.19920602599802!3d51.14761102218675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424580c47db54609%3A0x97f9148dddb19228!2z0J3Rg9GALdCh0YPQu9GC0LDQvSAwMjAwMDA!5e0!3m2!1sru!2skz!4v1647001292959!5m2!1sru!2skz" allowfullscreen="" loading="lazy"></iframe>
+            <form action="">
+                <h3>Связаться</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="Имя">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="номер">
+                </div>
+                <input type="submit" value="Связаться" class="btn">
+            </form>
+         </div>
+    </section>
+<!--contact end-->
+<!--blog start-->
+    <section class="blogs" id="blogs">
+        <h1 class="heading">Наш блог</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="img/thisFon.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">вкусный и освежающий кофе</a>
+                    <span>by admin / 13st mart, 2022</span>
+                    <p>наша команда - это преданные своему делу профессионалы. </p>
+                    <a href="#" class="btn">подробнее</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/irish.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">вкусный и освежающий кофе</a>
+                    <span>by admin / 13st mart, 2022</span>
+                    <p>наша команда - это преданные своему делу профессионалы. </p>
+                    <a href="#" class="btn">подробнее</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/coffee-7116.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">вкусный и освежающий кофе</a>
+                    <span>by admin / 13st mart, 2022</span>
+                    <p>наша команда - это преданные своему делу профессионалы. </p>
+                    <a href="#" class="btn">подробнее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--blog end-->
+<!--footer start-->
+    <section class="footer">
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+        <div class="links">
+            <a href="#home">Главная</a>
+            <a href="#about">О нас</a>
+            <a href="#menu">Меню</a>
+            <a href="#products">Продукты</a>
+            <a href="#review">Отзывы</a>
+            <a href="#contact">Контакты</a>
+            <a href="#blogs">Наш блог</a>
+        </div>
+        <div class="credit">created by <span>Abazov Temirlan</span>| all rights reserved</div>
+    </section>
+<!--footer end-->
+
+    
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
